@@ -1,1 +1,1 @@
-# Qaf-Talks-DistributedTransactions
+# Distributed transactions 101
