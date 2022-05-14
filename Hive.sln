@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EE466AEC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marco.ApiGateway", "src\api-gateway\Marco.ApiGateway.csproj", "{32109051-CC91-4142-A035-5B2BB3727EFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marco.Host", "src\host\Marco.Host.csproj", "{3516F5B4-0D61-4690-9892-B02037324480}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,8 +39,21 @@ Global
 		{32109051-CC91-4142-A035-5B2BB3727EFD}.Release|x64.Build.0 = Release|Any CPU
 		{32109051-CC91-4142-A035-5B2BB3727EFD}.Release|x86.ActiveCfg = Release|Any CPU
 		{32109051-CC91-4142-A035-5B2BB3727EFD}.Release|x86.Build.0 = Release|Any CPU
+		{3516F5B4-0D61-4690-9892-B02037324480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3516F5B4-0D61-4690-9892-B02037324480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3516F5B4-0D61-4690-9892-B02037324480}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3516F5B4-0D61-4690-9892-B02037324480}.Debug|x64.Build.0 = Debug|Any CPU
+		{3516F5B4-0D61-4690-9892-B02037324480}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3516F5B4-0D61-4690-9892-B02037324480}.Debug|x86.Build.0 = Debug|Any CPU
+		{3516F5B4-0D61-4690-9892-B02037324480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3516F5B4-0D61-4690-9892-B02037324480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3516F5B4-0D61-4690-9892-B02037324480}.Release|x64.ActiveCfg = Release|Any CPU
+		{3516F5B4-0D61-4690-9892-B02037324480}.Release|x64.Build.0 = Release|Any CPU
+		{3516F5B4-0D61-4690-9892-B02037324480}.Release|x86.ActiveCfg = Release|Any CPU
+		{3516F5B4-0D61-4690-9892-B02037324480}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{32109051-CC91-4142-A035-5B2BB3727EFD} = {6A454E21-5E60-4CE0-99FD-3EA1F1581573}
+		{3516F5B4-0D61-4690-9892-B02037324480} = {6A454E21-5E60-4CE0-99FD-3EA1F1581573}
 	EndGlobalSection
 EndGlobal
