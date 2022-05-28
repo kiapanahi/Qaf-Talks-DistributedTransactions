@@ -12,7 +12,7 @@ public class InMemoryOrderRepository : IOrderRepository
 {
     private readonly static List<Order> orders = new()
     {
-        new Order(new OrderId(Guid.Parse("b13652b5-a60a-4672-a9bd-cde04e97e581"))),
+        new Order(new OrderId(Guid.Parse("b13652b5-a60a-4672-a9bd-cde04e97e581"))) ,
         new Order(new OrderId(Guid.Parse("b13652b5-a60a-4672-a9bd-cde04e97e582"))),
         new Order(new OrderId(Guid.Parse("b13652b5-a60a-4672-a9bd-cde04e97e583"))),
         new Order(new OrderId(Guid.Parse("b13652b5-a60a-4672-a9bd-cde04e97e584"))),
@@ -33,6 +33,7 @@ public class InMemoryOrderRepository : IOrderRepository
         new Order(new OrderId(Guid.Parse("b13652b5-a60a-4672-a9bd-cde04e97e599"))),
         new Order(new OrderId(Guid.Parse("b13652b5-a60a-4672-a9bd-cde04e97e500")))
     };
+
     public Task<Order> FindOrderById(OrderId orderId)
     {
         return Task.FromResult(orders.FirstOrDefault(x => x.Id == orderId));
